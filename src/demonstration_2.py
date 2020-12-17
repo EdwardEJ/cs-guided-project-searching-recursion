@@ -24,6 +24,19 @@ containsTypo(3) -> False
 containsTypo(5) -> True
 containsTypo(4) -> True
 """
-def firstDraftWithTypo(n):
-    # Your code here
+# from typing import List
+# def firstDraftWithTypo(drafts: List[int]):
+#   # Your code here
+#   left = 0
+#   right = len(drafts) - 1
 
+#   while left < right:
+#     mid = ((right - left) // 2)
+
+#     if containsTypo(mid):
+#       right = mid
+#     else:
+#       left = mid
+
+#     if left + 1 == right:
+#       return right
